@@ -1,0 +1,39 @@
+.best-sellers {
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.btn-cart {
+    background-image: linear-gradient(to right, #9eb6b2 0%, #999999 51%, #9eb6b2 100%);
+}
+
+.btn-cart {
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    display: block;
+}
+
+.btn-cart:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.categorized-img {
+    width: auto;
+    height: 200px;
+}
+
+.product-title {
+    text-align: center;
+    color: #295668;
+    font-weight: bold;
+}
+
+.product-price {
+    text-align: center;
+    color: #295668;
+}

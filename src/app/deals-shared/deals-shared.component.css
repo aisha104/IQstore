@@ -1,0 +1,82 @@
+.deals {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.div-card {
+    max-width: 540px;
+    margin-left: 4rem;
+}
+
+.deals-description {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1.44rem;
+}
+
+.discount {
+    color: #295668;
+    text-decoration: line-through;
+    margin-right: 2px;
+}
+
+.product-title {
+    text-align: center;
+    color: #295668;
+    font-weight: bold;
+}
+
+.product-price-deal {
+    text-align: center;
+    color: #1fc700;
+}
+
+.discount-tag {
+    text-align: center;
+}
+
+.discount-tag::after {
+    background-image: linear-gradient(to bottom,  #1fc700 10%, #23e000 51%, #1fc700 100%);
+    color: white;
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    content: ' Discount ' attr(discount-value) '%';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    text-align: center;      
+}    
+
+.btn-cart {
+    background-image: linear-gradient(to right, #9eb6b2 0%, #999999 51%, #9eb6b2 100%);
+}
+
+.btn-cart {
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    display: block;
+}
+
+.btn-cart:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.products {
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.product-img {
+    /* width: auto; */
+    height: 200px;
+}

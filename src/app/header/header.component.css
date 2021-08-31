@@ -1,0 +1,17 @@
+.main-navbar {
+    /* background-image: linear-gradient(to right, #df8c19 0%, #efd25c 11%, #df8c19 100%); */
+    background-color: white;
+}
+
+.nav-right {
+    float: right;    
+}
+
+.nv-link {
+    font-size: 1.5rem;
+    color: #df8c19;
+}
+
+.img-logo {
+    margin-left: 1.5rem;
+}

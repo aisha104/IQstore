@@ -1,0 +1,44 @@
+.cart-card {
+    padding: 3rem;
+    margin-top: 1rem;
+    border-color: #e6df9e; 
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart-title {
+    color: #314755;
+    text-align: center;
+    font-size: 60px;
+}
+
+.cart-text {
+    color: #627c8d;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text-sub {
+    font-size: 20px;
+}
+.btn-yellow {background-image: linear-gradient(to right,  #df8c19 0%, #efd25c 51%, #df8c19 100%)}
+
+.btn-yellow {
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   display: block;
+ }
+
+.btn-yellow:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.home-banner {
+    margin-top: 1rem;
+}
+
+h2 {    
+    text-align: left; 
+    border-bottom: 0.2rem solid #e8dad4; 
+    line-height: 0.2em;
+    margin: 3rem 0 3rem; 
+    color: #295668;
+    font-weight: bold;
+    font-size: 2.4rem;
+ } 
+ 
+ h2 span { 
+    background:#fff; 
+    padding:10px; 
+ }
+
+.link-view-more {
+    font-size: 1.5rem;
+    margin: 1rem; 
+ }
+
+.view-more {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.3rem;    
+    text-align: right;
+    margin-right: 1.4rem;
+} 
+
+.view-more a {
+    color: #df8c19;
+}
+

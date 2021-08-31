@@ -1,0 +1,10 @@
+<div class="categories">
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col" *ngFor="let category of categories">
+            <div class="card h-100 cards">
+                <img src="{{ category.product_category_img_url }}" class="card-img-top category-img" alt="...">
+            <div class="card-body">
+            <a  routerLink="/categorized-products/{{ category.product_category_id }}" class="card-title"><h5 class="card-title">{{ category.product_category_name }}</h5></a>
+        </div>          
+    </div>
+</div> 

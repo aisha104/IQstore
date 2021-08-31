@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@300&display=swap');
+
+* {
+    font-family: 'Martel', serif;
+}
+
+.card-title {
+    text-align: center;
+    color: #295668;
+    font-weight: bold;
+}
+
+.cards {
+    margin: 1rem;
+}
+
+.cards:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    color: white;
+}
+
+.btn-back:hover {
+    background-image: linear-gradient(to right, #df8c19 0%, #efd25c 51%, #df8c19 100%);
+}
+
+.btn-back {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 2rem;
+}
+
+.btn-yellow {background-image: linear-gradient(to right,  #df8c19 0%, #efd25c 51%, #df8c19 100%)}
+
+.btn-yellow {
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   display: block;
+ }
+
+.btn-yellow:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

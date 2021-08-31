@@ -1,0 +1,61 @@
+  <app-header></app-header>
+  
+  <!-- <div id="home-banner" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/home-banner1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/home-banner2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/home-banner3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+<br>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/images/home-banner.jpg" alt="banner">
+      </div>   
+    </div>
+  </div>
+  
+  <!-- deals  -->
+  <h2><span>Deals</span></h2>
+
+  <div class="deals">
+    <app-deals-shared [numberOfDealsChild]="numberOfProducts"></app-deals-shared>
+  </div>
+  <div class="view-more">
+    <a routerLink="/deals">View More</a>
+  </div>
+
+  <!-- best sellers  -->
+  <h2><span>Best Sellers</span></h2>
+  <div class="best-sellers">
+    <app-best-sellers-shared [numberOfBestSellers]="numberOfProducts"></app-best-sellers-shared>
+  </div>
+  <div class="view-more">
+    <a routerLink="/best-sellers">View More</a>
+  </div>
+
+  <!-- categories  -->
+  <h2><span>Categories</span></h2>
+
+  <app-categories-shared [numberOfCategories]="numberOfProducts"></app-categories-shared>
+
+  <div class="view-more">
+    <a routerLink="/categories">View More</a>
+  </div> 
+
+  

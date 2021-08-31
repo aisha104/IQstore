@@ -1,0 +1,10 @@
+.categories {
+    margin-top: 2rem;
+    padding: 2rem;
+    max-width: 100%;
+}
+
+.category-img {
+    height: 200px;
+    width: auto;
+}

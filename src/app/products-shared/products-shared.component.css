@@ -1,0 +1,91 @@
+.products {
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.product-img {
+    width: auto;
+    height: 200px;
+}
+
+.product-title {
+    text-align: center;
+    color: #295668;
+    font-weight: bold;
+}
+
+.product-price {
+    text-align: center;
+    color: #295668;
+}
+
+.btn-cart {
+    background-image: linear-gradient(to right, #9eb6b2 0%, #999999 51%, #9eb6b2 100%);
+}
+
+.btn-cart {
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    display: block;
+}
+
+.btn-cart:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-register {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+
+.btn-register {
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   margin-left: 5px;
+ }
+
+.btn-register:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-yellow {background-image: linear-gradient(to right,  #df8c19 0%, #efd25c 51%, #df8c19 100%)}
+
+.btn-yellow {
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   margin-left: 5px;
+ }
+
+.btn-yellow:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.sort-and-filter {
+    display: flex;
+}
+
+.filter-products {
+    color: #295668;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sort-products {
+    color: #295668;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 4rem;
+  
+}

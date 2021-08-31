@@ -1,0 +1,16 @@
+
+  <div class="row row-cols-1 row-cols-md-5 g-4">
+    <div class="col" *ngFor="let deal of deals">
+      <div class="card h-100 cards">
+        <div class="discount-tag" [attr.discount-value]='deal.product_discount_value'>
+          <img src="{{ deal.product_img_url }}" class="card-img-top product-img" alt="...">
+        </div>                
+        <div class="card-body">
+          <h5 class="card-title product-title">{{ deal.product_name}}</h5>
+          <p class="card-text product-price-deal"><span class="discount">{{ deal.product_price | currency:'LKR' }}</span>
+            {{ deal.product_discounted_price | currency:'LKR'}}</p>
+          <button type="button" class="btn btn-cart center-button">Add to cart</button>
+        </div>          
+      </div>
+    </div> 
+  </div>   
